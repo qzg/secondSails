@@ -1,37 +1,38 @@
 !!!
-head
-  title= title
-  meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
-  script(src="/mixins/sails.io.js")
-  // STYLES
-  link(rel="stylesheet", href="/linker/styles/bootstrap-responsive.min.css")
-  link(rel="stylesheet", href="/linker/styles/bootstrap.min.css")
-  link(rel="stylesheet", href="/linker/styles/main.css")
-  // STYLES END
-body
-  header 
-    nav: ul
-      li: a(href="#") Make Appointment
-      li: a(href="#") My Health
-      li: a(href="#") My Doctors
-      li: a(href="#") [username goes here]
+html(lang="en")
+  head
+    title= title
+    meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+    script(src="/mixins/sails.io.js")
+    // STYLES
+    link(rel="stylesheet", href="/linker/styles/bootstrap-responsive.min.css")
+    link(rel="stylesheet", href="/linker/styles/bootstrap.min.css")
+    link(rel="stylesheet", href="/linker/styles/main.css")
+    // STYLES END
+  body
+    header 
+      nav: ul
+        li: a(href="#") Make Appointment
+        li: a(href="#") My Health
+        li: a(href="#") My Doctors
+        li: a(href="#") [username goes here]
 
-  article 
-    block body
+    article 
+      block body
 
-  footer 
-    nav: ul
-      li: a(href="#") Blog
-      li: a(href="#") Press
-      li: a(href="#") contact
-      li: a(href="#") Terms and Privacy Policy
-      li &copy; 2013 2nd.MD
+    footer 
+      nav: ul
+        li: a(href="#") Blog
+        li: a(href="#") Press
+        li: a(href="#") contact
+        li: a(href="#") Terms and Privacy Policy
+        li &copy; 2013 2nd.MD
 
 
-// SCRIPTS
-script(type="text/javascript", src="/linker/js/angular.min.js")
-script(type="text/javascript", src="/linker/js/bootstrap.min.js")
-script(type="text/javascript", src="/linker/js/jquery-1.10.1.min.js")
-script(type="text/javascript", src="/linker/js/main.js")
-script(type="text/javascript", src="/linker/js/modernizr-2.6.2-respond-1.1.0.min.js")
-// SCRIPTS END
+  // SCRIPTS
+  script(type="text/javascript", src="/linker/js/angular.min.js")
+  script(type="text/javascript", src="/linker/js/bootstrap.min.js")
+  script(type="text/javascript", src="/linker/js/jquery-1.10.1.min.js")
+  script(type="text/javascript", src="/linker/js/main.js")
+  script(type="text/javascript", src="/linker/js/modernizr-2.6.2-respond-1.1.0.min.js")
+  // SCRIPTS END

@@ -1,0 +1,12 @@
+extends ../layout
+
+block body
+
+  h1 Testimonials
+  each item, key in testimonials
+    .row-fluid
+      .span2.offset1
+        img(src="/images/testimonials/#{key}.jpg", width="100%")
+        p #{item.client}
+      .span8
+        p #{item.quote}
