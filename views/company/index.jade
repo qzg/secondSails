@@ -1,5 +1,14 @@
 extends ../layout
 
-
 block body
-  h1 here we go
+  h1 Welcome, Employees of Your Employer!
+  p
+    :markdown
+      Please activate your account below by filling in the fields.
+  #fields
+    label Email address:
+    input
+    label Create Password:  
+    input
+    label Confirm Password:  
+    input
