@@ -1,0 +1,2 @@
+# secondSails
+### a Sails application
