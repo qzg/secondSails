@@ -2,11 +2,11 @@ extends ../layout
 
 block body
 
-  h1 Testimonials
+  h1.span12 Testimonials
   each item, key in testimonials
     .row-fluid
-      .span2.offset1
+      .span2.offset2
         img(src="/images/testimonials/#{key}.jpg", width="100%")
         p #{item.client}
-      .span8
+      .span6
         p #{item.quote}

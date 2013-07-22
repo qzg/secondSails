@@ -5,28 +5,16 @@ html(lang="en")
     meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
     script(src="/mixins/sails.io.js")
     // STYLES
-    link(rel="stylesheet", href="/linker/styles/bootstrap-responsive.min.css")
-    link(rel="stylesheet", href="/linker/styles/bootstrap.min.css")
     link(rel="stylesheet", href="/linker/styles/main.css")
     // STYLES END
   body
-    header 
-      nav: ul
-        li: a(href="#") Make Appointment
-        li: a(href="#") My Health
-        li: a(href="#") My Doctors
-        li: a(href="#") [username goes here]
+    
+    include partials/header
 
-    article 
+    article.container
       block body
 
-    footer 
-      nav: ul
-        li: a(href="#") Blog
-        li: a(href="#") Press
-        li: a(href="#") contact
-        li: a(href="#") Terms and Privacy Policy
-        li &copy; 2013 2nd.MD
+    include partials/footer
 
 
   // SCRIPTS

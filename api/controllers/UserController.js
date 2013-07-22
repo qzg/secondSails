@@ -73,10 +73,6 @@ module.exports = {
       "white-haired-glasses-man"              :  {
         "client"    :  "Joseph",
         "quote"     :  "As good as being physically present with a specialist. Dr. Orr reviewed my file prior to the appointment and has great knowledge in neurology. Well prepared and answered all my questions."
-      },
-      "brunette-man-glasses-smling"  :  {
-        "client"    :  "Doug",
-        "quote"     :  "Dr. Geiger was very professional, caring and really talked to me about my problem.  She had great insight and knew about new studies that no one else has told me about!"
       }
     };
 

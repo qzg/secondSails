@@ -1,7 +1,10 @@
+@import "../../styles/less/bootstrap/bootstrap.less";
 
-header, footer {
+footer {
   background-color:#ccc;
   height:50px;
+  // position: fixed;
+  width: 100%;
   nav { 
     ul { 
       list-style-type:none;
@@ -15,15 +18,27 @@ header, footer {
   }
 }
 
+.second{
+  background: #fff;
+}
+
+.steps{
+  height: 4em;
+  width:100%;
+  li{
+    width:25%;
+    text-align: center;
+  }
+}
+
 article {
-  margin:0 auto; 
-  width:960px;
   min-height:400px;
   border:1px solid #ccc;
+  padding: 120px 0;
 }
 
 footer {
-  position:absolute;
+  // position:absolute;
   bottom:0;
   width:100%;
 }
